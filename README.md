@@ -1,11 +1,16 @@
-# Ant_game_1
+# Ant_Game_1
 Built Using Construct 3
 
-# How to save:
-1: Save in construct.<br></br>
-2: Open github desktop<br></br>
-3: write a summary. <br></br>
-4: Click commit<br></br>
-5: Click Push <br></br>
+## Game Objective
+You play as an ant on a mission to steal food from a picnic. The objective of the game is to navigate obstacles, avoid being spotted by humans or other creatures, and collect as much food as possible before time runs out.
+
+# How to Save the Project:
+1. Open Github Desktop
+2. Click Fetch
+3: Save in Construct 3.<br></br>
+4: Open Github Desktop<br></br>
+5: Write a Summary. <br></br>
+6: Click Commit<br></br>
+7: Click Push <br></br>
 
 
