@@ -12,6 +12,7 @@
 						"shape": "box",
 						"z-height": 15,
 						"initially-visible": true,
+<<<<<<< Updated upstream
 						"face-back": false,
 						"face-front": true,
 						"face-left": true,
@@ -25,6 +26,22 @@
 						"object-right": -1,
 						"object-top": -1,
 						"object-bottom": -1
+=======
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 10,
+						"image-scale-y": 10,
+						"image-angle": 0,
+						"enable-tile-randomization": true,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+>>>>>>> Stashed changes
 					},
 					"uid": 2,
 					"sid": 632677338264501,
@@ -67,11 +84,264 @@
 						"expanded": true
 					},
 					"world": {
+<<<<<<< Updated upstream
 						"x": 283,
 						"y": 132,
 						"width": 1024,
 						"height": 1248,
 						"originX": 0.5,
+=======
+						"x": 597,
+						"y": 207,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"sid": 722543451603114,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 722543451603114,
+						"expanded": true
+					},
+					"world": {
+						"x": 762,
+						"y": 481,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"sid": 684208252818109,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 684208252818109,
+						"expanded": true
+					},
+					"world": {
+						"x": 379,
+						"y": 662,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"sid": 913439821595904,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 913439821595904,
+						"expanded": true
+					},
+					"world": {
+						"x": 1061,
+						"y": 668,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"sid": 125971141530837,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 125971141530837,
+						"expanded": true
+					},
+					"world": {
+						"x": 1518,
+						"y": 207,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"sid": 520545745479235,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 520545745479235,
+						"expanded": true
+					},
+					"world": {
+						"x": 1497,
+						"y": 764,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"sid": 237364297181919,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 237364297181919,
+						"expanded": true
+					},
+					"world": {
+						"x": 1196,
+						"y": 262,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"sid": 541467095052085,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 541467095052085,
+						"expanded": true
+					},
+					"world": {
+						"x": 925,
+						"y": 128,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+>>>>>>> Stashed changes
 						"originY": 0.5,
 						"color": [
 							1,
