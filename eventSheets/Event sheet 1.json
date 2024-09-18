@@ -3,9 +3,24 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 960225655034316
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 669401502880981,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite",
+					"sid": 460922967524010
+				}
+			],
+			"sid": 126369566363194
 		}
 	],
 	"sid": 497477245291907
