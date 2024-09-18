@@ -1,15 +1,15 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 40700,
-	"name": "ant game 1",
+	"name": "ant_game_1",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Shape3D",
-			"name": "3D shape",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -19,13 +19,44 @@
 			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
-	"uniqueId": "ycfxs9l6y4s",
+	"uniqueId": "xi87vehv4ru",
 	"objectTypes": {
 		"items": [
-			"3DShape",
-			"Sprite"
+			"Sprite",
+			"TiledBackground",
+			"Sprite3",
+			"Sprite2",
+			"Keyboard"
 		],
 		"subfolders": []
 	},
@@ -73,7 +104,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 110411427227665,
+					"sid": 707294540702579,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -81,7 +112,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 185779084801645,
+					"sid": 131831906243238,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -89,23 +120,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 177286945818397,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-128.png",
-					"type": "image/png",
-					"sid": 925472151896349,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-256.png",
-					"type": "image/png",
-					"sid": 471677142260979,
+					"sid": 470797760489104,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -113,7 +128,23 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 413506367303115,
+					"sid": 375884489663873,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 857310977400220,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 593604161311561,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -121,7 +152,7 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 496672597733617,
+					"sid": 727403337280613,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
