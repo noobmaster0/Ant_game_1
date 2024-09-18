@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 851930241795830
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -46,6 +56,12 @@
 				}
 			],
 			"sid": 331397975528355
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 134582566069303
 		}
 	],
 	"sid": 497477245291907
