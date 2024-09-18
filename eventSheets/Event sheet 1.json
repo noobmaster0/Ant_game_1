@@ -2,6 +2,7 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+<<<<<<< HEAD
 			"eventType": "variable",
 			"name": "Score",
 			"type": "number",
@@ -12,6 +13,8 @@
 			"sid": 851930241795830
 		},
 		{
+=======
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 			"eventType": "block",
 			"conditions": [
 				{
@@ -56,12 +59,15 @@
 				}
 			],
 			"sid": 331397975528355
+<<<<<<< HEAD
 		},
 		{
 			"eventType": "block",
 			"conditions": [],
 			"actions": [],
 			"sid": 134582566069303
+=======
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 		}
 	],
 	"sid": 497477245291907

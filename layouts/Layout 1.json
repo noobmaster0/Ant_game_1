@@ -7,11 +7,10 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "3DShape",
+					"type": "TiledBackground",
 					"properties": {
-						"shape": "box",
-						"z-height": 15,
 						"initially-visible": true,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 						"face-back": false,
 						"face-front": true,
@@ -27,13 +26,20 @@
 						"object-top": -1,
 						"object-bottom": -1
 =======
+=======
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 						"origin": "top-left",
 						"wrap-horizontal": "repeat",
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
+<<<<<<< HEAD
 						"image-scale-x": 10,
 						"image-scale-y": 10,
+=======
+						"image-scale-x": 5,
+						"image-scale-y": 5,
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 						"image-angle": 0,
 						"enable-tile-randomization": true,
 						"x-random": 1,
@@ -41,20 +47,29 @@
 						"angle-random": 1,
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 					},
-					"uid": 2,
-					"sid": 632677338264501,
+					"uid": 3,
+					"sid": 175499938437190,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Score": 0
+					},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 175499938437190,
+						"expanded": true
+					},
 					"world": {
-						"x": 127,
-						"y": 170,
-						"width": 120,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": -0.45110580046711846,
+						"y": -1.0142377530254052,
+						"width": 1712.6671637381203,
+						"height": 962.2278472037142,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -69,21 +84,75 @@
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"sid": 866833515993410,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 866833515993410,
+						"expanded": true
+					},
+					"world": {
+						"x": 179.81310395209704,
+						"y": 100.48584658987015,
+						"width": 114.31212081341387,
+						"height": 82.92699472825313,
+						"originX": 0.5774647887323944,
+						"originY": 0.502262443438914,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.275593844647187,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
-					"sid": 313889532664220,
+					"uid": 4,
+					"sid": 520635885747944,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 313889532664220,
+						"sid": 520635885747944,
 						"expanded": true
 					},
 					"world": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 						"x": 283,
 						"y": 132,
@@ -342,6 +411,13 @@
 						"height": 31,
 						"originX": 0.44886363636363635,
 >>>>>>> Stashed changes
+=======
+						"x": 424,
+						"y": 246,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+>>>>>>> parent of 06c9113 (Added Fire Ant)
 						"originY": 0.5,
 						"color": [
 							1,
