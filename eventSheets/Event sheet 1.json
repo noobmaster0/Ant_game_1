@@ -21,6 +21,31 @@
 				}
 			],
 			"sid": 126369566363194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 606581716005931,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite4",
+					"sid": 662241518123893,
+					"parameters": {
+						"x": "random(0,1708)",
+						"y": "random(0,960)"
+					}
+				}
+			],
+			"sid": 331397975528355
 		}
 	],
 	"sid": 497477245291907

@@ -28,7 +28,9 @@
 					"uid": 3,
 					"sid": 175499938437190,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Score": 0
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 175499938437190,
@@ -101,6 +103,41 @@
 							1
 						],
 						"angle": 6.275593844647187,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"sid": 520635885747944,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 520635885747944,
+						"expanded": true
+					},
+					"world": {
+						"x": 424,
+						"y": 246,
+						"width": 38,
+						"height": 31,
+						"originX": 0.44886363636363635,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

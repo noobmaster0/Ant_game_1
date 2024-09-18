@@ -56,7 +56,8 @@
 			"TiledBackground",
 			"Sprite3",
 			"Sprite2",
-			"Keyboard"
+			"Keyboard",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
