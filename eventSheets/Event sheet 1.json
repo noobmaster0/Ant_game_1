@@ -1,52 +1,5 @@
 {
 	"name": "Event sheet 1",
-	"events": [
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite",
-					"sid": 669401502880981,
-					"parameters": {
-						"object": "Sprite2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Sprite",
-					"sid": 460922967524010
-				}
-			],
-			"sid": 126369566363194
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
-					"sid": 606581716005931,
-					"parameters": {
-						"object": "Sprite"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-position",
-					"objectClass": "Sprite4",
-					"sid": 662241518123893,
-					"parameters": {
-						"x": "random(0,1708)",
-						"y": "random(0,960)"
-					}
-				}
-			],
-			"sid": 331397975528355
-		}
-	],
-	"sid": 497477245291907
+	"events": [],
+	"sid": 319362087299489
 }
