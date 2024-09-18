@@ -32,9 +32,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 305,
+						"x": 280,
 						"y": 213,
-						"width": 170,
+						"width": 120,
 						"height": 120,
 						"originX": 0.5,
 						"originY": 0.5,
