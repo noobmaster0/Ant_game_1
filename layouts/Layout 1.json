@@ -27,11 +27,13 @@
 						"object-bottom": -1
 					},
 					"uid": 2,
+					"sid": 632677338264501,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 337,
-						"y": 220,
+						"x": 127,
+						"y": 170,
 						"width": 120,
 						"height": 120,
 						"originX": 0.5,
@@ -77,6 +79,10 @@
 			"global": false
 		}
 	],
+	"scene-graphs-folder-root": {
+		"items": [],
+		"subfolders": []
+	},
 	"sid": 443727518032429,
 	"nonworld-instances": [],
 	"effectTypes": [],
