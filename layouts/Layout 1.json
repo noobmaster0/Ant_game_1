@@ -10,7 +10,7 @@
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -19,25 +19,43 @@
 					"sid": 866833515993410,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 866833515993410,
 						"expanded": true
 					},
 					"world": {
-						"x": 387,
-						"y": 226,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 179.81310395209704,
+						"y": 100.48584658987015,
+						"width": 114.31212081341387,
+						"height": 82.92699472825313,
+						"originX": 0.5774647887323944,
+						"originY": 0.502262443438914,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.275593844647187,
 						"zElevation": 0
 					}
 				}
