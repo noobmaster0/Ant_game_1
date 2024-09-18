@@ -55,9 +55,7 @@
 					"uid": 3,
 					"sid": 175499938437190,
 					"tags": "",
-					"instanceVariables": {
-						"Score": 0
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 175499938437190,
@@ -132,6 +130,7 @@
 						"angle": 6.275593844647187,
 						"zElevation": 0
 					}
+<<<<<<< HEAD
 				},
 				{
 					"type": "Sprite4",
@@ -428,6 +427,8 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+=======
+>>>>>>> parent of ba2e366 (Added food)
 				}
 			],
 			"sid": 278557975070385,
