@@ -7,35 +7,28 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "3DShape",
+					"type": "Sprite",
 					"properties": {
-						"shape": "box",
-						"z-height": 15,
 						"initially-visible": true,
-						"face-back": false,
-						"face-front": true,
-						"face-left": true,
-						"face-right": true,
-						"face-top": true,
-						"face-bottom": true,
-						"z-tiling-factor": 8,
-						"object-back": -1,
-						"object-front": -1,
-						"object-left": -1,
-						"object-right": -1,
-						"object-top": -1,
-						"object-bottom": -1
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 2,
-					"sid": 632677338264501,
+					"sid": 866833515993410,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 866833515993410,
+						"expanded": true
+					},
 					"world": {
-						"x": 127,
-						"y": 170,
-						"width": 120,
-						"height": 120,
+						"x": 387,
+						"y": 226,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
