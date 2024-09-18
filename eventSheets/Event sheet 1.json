@@ -38,14 +38,39 @@
 				{
 					"id": "set-position",
 					"objectClass": "Sprite4",
-					"sid": 662241518123893,
+					"sid": 361278348635101,
+					"parameters": {
+						"x": "random(48,1708-48)",
+						"y": "random(48,960-48)"
+					}
+				}
+			],
+			"sid": 331397975528355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite5",
+					"sid": 747298787326224,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite5",
+					"sid": 520202242216441,
 					"parameters": {
 						"x": "random(0,1708)",
 						"y": "random(0,960)"
 					}
 				}
 			],
-			"sid": 331397975528355
+			"sid": 144259396938944
 		}
 	],
 	"sid": 497477245291907

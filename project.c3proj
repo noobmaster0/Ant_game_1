@@ -47,6 +47,13 @@
 			"name": "Scroll To",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xi87vehv4ru",
@@ -57,7 +64,9 @@
 			"Sprite3",
 			"Sprite2",
 			"Keyboard",
-			"Sprite4"
+			"Sprite4",
+			"Sprite5",
+			"TiledBackground2"
 		],
 		"subfolders": []
 	},
