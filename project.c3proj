@@ -22,16 +22,6 @@
 		},
 		{
 			"type": "plugin",
-<<<<<<< HEAD
-			"id": "Text",
-			"name": "Text",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-=======
->>>>>>> parent of 06c9113 (Added Fire Ant)
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -53,16 +43,6 @@
 		},
 		{
 			"type": "behavior",
-<<<<<<< HEAD
-			"id": "bound",
-			"name": "Bound to layout",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-=======
->>>>>>> parent of 06c9113 (Added Fire Ant)
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
@@ -76,17 +56,8 @@
 			"TiledBackground",
 			"Sprite3",
 			"Sprite2",
-<<<<<<< HEAD
 			"Keyboard",
-<<<<<<< HEAD
-			"Sprite4",
-			"Scoreset"
-=======
 			"Sprite4"
->>>>>>> parent of 06c9113 (Added Fire Ant)
-=======
-			"Keyboard"
->>>>>>> parent of ba2e366 (Added food)
 		],
 		"subfolders": []
 	},

@@ -2,19 +2,6 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
-<<<<<<< HEAD
-			"eventType": "variable",
-			"name": "Score",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 851930241795830
-		},
-		{
-=======
->>>>>>> parent of 06c9113 (Added Fire Ant)
 			"eventType": "block",
 			"conditions": [
 				{
@@ -34,7 +21,6 @@
 				}
 			],
 			"sid": 126369566363194
-<<<<<<< HEAD
 		},
 		{
 			"eventType": "block",
@@ -60,17 +46,6 @@
 				}
 			],
 			"sid": 331397975528355
-<<<<<<< HEAD
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 134582566069303
-=======
->>>>>>> parent of 06c9113 (Added Fire Ant)
-=======
->>>>>>> parent of ba2e366 (Added food)
 		}
 	],
 	"sid": 497477245291907

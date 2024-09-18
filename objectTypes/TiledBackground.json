@@ -3,7 +3,15 @@
 	"plugin-id": "TiledBg",
 	"sid": 496505082037778,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Score",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 378076936194035
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
@@ -15,7 +23,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 1391687,
+		"imageSpriteId": 1105357,
 		"useCollisionPoly": true,
 		"tag": ""
 	}
