@@ -2,21 +2,52 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 110171824223074
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 583808920575551
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 667429012625122,
+					"parameters": {
+						"text": "\"Score: \" & Score"
+					}
+				}
+			],
+			"sid": 368401619926158
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite",
+					"objectClass": "PlayerAnt",
 					"sid": 669401502880981,
 					"parameters": {
-						"object": "Sprite2"
+						"object": "Enemy"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "destroy",
-					"objectClass": "Sprite",
+					"objectClass": "PlayerAnt",
 					"sid": 460922967524010
 				}
 			],
@@ -27,50 +58,68 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite4",
-					"sid": 606581716005931,
+					"objectClass": "PlayerAnt",
+					"sid": 779604044802310,
 					"parameters": {
-						"object": "Sprite"
+						"object": "Fruit2"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "set-position",
-					"objectClass": "Sprite4",
-					"sid": 361278348635101,
+					"objectClass": "Fruit2",
+					"sid": 665620293615479,
 					"parameters": {
-						"x": "random(48,1708-48)",
-						"y": "random(48,960-48)"
+						"x": "random(0,1708)",
+						"y": "random(0,960)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 882707963133999,
+					"parameters": {
+						"variable": "Score",
+						"value": "10"
 					}
 				}
 			],
-			"sid": 331397975528355
+			"sid": 745866515572966
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite5",
-					"sid": 747298787326224,
+					"objectClass": "PlayerAnt",
+					"sid": 817492387888470,
 					"parameters": {
-						"object": "Sprite"
+						"object": "Fruit1"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "set-position",
-					"objectClass": "Sprite5",
-					"sid": 520202242216441,
+					"objectClass": "Fruit1",
+					"sid": 361278348635101,
 					"parameters": {
-						"x": "random(0,1708)",
-						"y": "random(0,960)"
+						"x": "random(48,1708-48)",
+						"y": "random(48,960-48)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 801599683234968,
+					"parameters": {
+						"variable": "Score",
+						"value": "10"
 					}
 				}
 			],
-			"sid": 144259396938944
+			"sid": 331397975528355
 		}
 	],
 	"sid": 497477245291907

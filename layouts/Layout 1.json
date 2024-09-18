@@ -54,7 +54,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "PlayerAnt",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Idle",
@@ -107,7 +107,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -177,7 +177,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -212,7 +212,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -247,7 +247,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -282,7 +282,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -317,7 +317,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -352,7 +352,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -387,7 +387,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Fruit1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -422,7 +422,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "Fruit2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -457,7 +457,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "Fruit2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -492,7 +492,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "Fruit2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -527,7 +527,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "Fruit2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -790,6 +790,92 @@
 			"isTransparent": false,
 			"parallaxX": 1,
 			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "HUD",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Text",
+					"properties": {
+						"text": "Score:",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 20,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 4,
+					"sid": 233011933535827,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 233011933535827,
+						"expanded": true
+					},
+					"world": {
+						"x": 11,
+						"y": 10,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 152575966390416,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 0,
+			"parallaxY": 0,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",

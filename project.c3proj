@@ -22,6 +22,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -59,14 +66,15 @@
 	"uniqueId": "xi87vehv4ru",
 	"objectTypes": {
 		"items": [
-			"Sprite",
+			"PlayerAnt",
 			"TiledBackground",
 			"Sprite3",
-			"Sprite2",
+			"Enemy",
 			"Keyboard",
-			"Sprite4",
-			"Sprite5",
-			"TiledBackground2"
+			"Fruit1",
+			"Fruit2",
+			"TiledBackground2",
+			"Text"
 		],
 		"subfolders": []
 	},
