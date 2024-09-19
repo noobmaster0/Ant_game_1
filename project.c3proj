@@ -74,7 +74,8 @@
 			"Fruit1",
 			"Fruit2",
 			"TiledBackground2",
-			"Text"
+			"Text",
+			"Timer"
 		],
 		"subfolders": []
 	},

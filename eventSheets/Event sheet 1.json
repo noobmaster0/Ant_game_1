@@ -12,6 +12,80 @@
 			"sid": 110171824223074
 		},
 		{
+			"eventType": "variable",
+			"name": "gametimer",
+			"type": "number",
+			"initialValue": "240",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 794109730580195
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 826418267640637
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Timer",
+					"sid": 862095876702619,
+					"parameters": {
+						"text": "\"Timer: \" & gametimer"
+					}
+				}
+			],
+			"sid": 825820175189615
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 420227491123273,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 211307122892762,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 4,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 468655454433611,
+					"parameters": {
+						"variable": "gametimer",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Timer",
+					"sid": 846570112817420,
+					"parameters": {
+						"text": "\"Timer: \" & gametimer"
+					}
+				}
+			],
+			"sid": 720410636180370
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
