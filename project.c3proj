@@ -8,13 +8,6 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -85,7 +78,8 @@
 			"Timer",
 			"Text2",
 			"Text3",
-			"Audio"
+			"TiledBackground3",
+			"Fruit3"
 		],
 		"subfolders": []
 	},
@@ -116,32 +110,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "spotifydown.com - Rowing Down the River.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 473957026214691,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "5716783635496960.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 160064628496434,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com].webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 351183515507335,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
