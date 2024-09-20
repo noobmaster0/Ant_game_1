@@ -57,7 +57,7 @@
 					"type": "PlayerAnt",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Walk",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -92,10 +92,10 @@
 					"world": {
 						"x": 175,
 						"y": 144,
-						"width": 183.8138902679695,
-						"height": 133.34660752303103,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 114.31212081341387,
+						"height": 82.92699472825313,
+						"originX": 0.5774647887323944,
+						"originY": 0.502262443438914,
 						"color": [
 							1,
 							1,
