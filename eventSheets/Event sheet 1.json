@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "100",
+			"initialValue": "30",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -199,9 +199,17 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 943800493849242,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 886637795162666,
+					"sid": 960572846830248,
 					"parameters": {
 						"first-value": "gametimer",
 						"comparison": 0,
@@ -211,7 +219,7 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 464343179218839,
+					"sid": 778448811677438,
 					"parameters": {
 						"first-value": "Score",
 						"comparison": 5,
@@ -219,8 +227,61 @@
 					}
 				}
 			],
-			"actions": [],
-			"sid": 662182165482003
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 661075573168531,
+					"parameters": {
+						"layout": "win"
+					}
+				}
+			],
+			"sid": 175136476048529
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 125781072172592,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 569685788142659,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 214775955125271,
+					"parameters": {
+						"first-value": "Score",
+						"comparison": 2,
+						"second-value": "300"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 844979223625686,
+					"parameters": {
+						"layout": "loose"
+					}
+				}
+			],
+			"sid": 212572320601297
 		}
 	],
 	"sid": 497477245291907
