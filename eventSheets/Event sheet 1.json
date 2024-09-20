@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "30",
+			"initialValue": "100",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -37,6 +37,18 @@
 					"sid": 862095876702619,
 					"parameters": {
 						"text": "\"Timer: \" & gametimer"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 151375738265031,
+					"parameters": {
+						"audio-file": "spotifydown.com - Rowing Down the River",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -235,6 +247,23 @@
 					"parameters": {
 						"layout": "win"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 537421273158121
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 493453326965678,
+					"parameters": {
+						"audio-file": "5716783635496960",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 175136476048529
@@ -278,6 +307,23 @@
 					"sid": 844979223625686,
 					"parameters": {
 						"layout": "loose"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 413237463434594
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 730349654209170,
+					"parameters": {
+						"audio-file": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com]",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
