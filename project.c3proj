@@ -77,7 +77,8 @@
 			"Text",
 			"Timer",
 			"Text2",
-			"Text3"
+			"Text3",
+			"TiledBackground3"
 		],
 		"subfolders": []
 	},

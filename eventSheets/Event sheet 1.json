@@ -282,6 +282,78 @@
 				}
 			],
 			"sid": 212572320601297
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 139269187717167,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 585302765707211,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 722593973640953,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 966279717809950,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayerAnt",
+					"sid": 827206196470790,
+					"parameters": {
+						"animation": "\"Walk\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 341138810259005,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 611752780670501
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayerAnt",
+					"sid": 506606909711439,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 653334125063376
 		}
 	],
 	"sid": 497477245291907
