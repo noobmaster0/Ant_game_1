@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "100",
+			"initialValue": "240",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -194,6 +194,33 @@
 				}
 			],
 			"sid": 331397975528355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 886637795162666,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 464343179218839,
+					"parameters": {
+						"first-value": "Score",
+						"comparison": 5,
+						"second-value": "300"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 662182165482003
 		}
 	],
 	"sid": 497477245291907

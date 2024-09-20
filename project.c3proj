@@ -75,7 +75,9 @@
 			"Fruit2",
 			"TiledBackground2",
 			"Text",
-			"Timer"
+			"Timer",
+			"Text2",
+			"Text3"
 		],
 		"subfolders": []
 	},
@@ -87,7 +89,10 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2",
+			"loose",
+			"win"
 		],
 		"subfolders": []
 	},

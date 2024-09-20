@@ -5,99 +5,8 @@
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [
-				{
-					"type": "TiledBackground",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0,
-						"enable-tile-randomization": true,
-						"x-random": 2,
-						"y-random": 1,
-						"angle-random": 1,
-						"blend-margin-x": 0.1,
-						"blend-margin-y": 0.1
-					},
-					"uid": 3,
-					"sid": 401378823549090,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -132,
-						"y": -36,
-						"width": 1896,
-						"height": 1054,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": -1
-					}
-				},
-				{
-					"type": "Sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"sid": 618914482005382,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"8Direction": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-8",
-								"set-angle": "smooth",
-								"allow-sliding": false,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 305.45454545454567,
-						"y": 318.6363636363636,
-						"width": 105,
-						"height": 85,
-						"originX": 0.5774647887323944,
-						"originY": 0.502262443438914,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.280005110453554,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 868645072045857,
+			"instances": [],
+			"sid": 134232740608159,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -109,9 +18,9 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
-				1,
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
 				1
 			],
 			"isTransparent": false,
@@ -131,7 +40,7 @@
 		"items": [],
 		"subfolders": []
 	},
-	"sid": 866436625044945,
+	"sid": 308572025991962,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -140,5 +49,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": null
 }
