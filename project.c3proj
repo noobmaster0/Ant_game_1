@@ -78,7 +78,8 @@
 			"Timer",
 			"Text2",
 			"Text3",
-			"TiledBackground3"
+			"TiledBackground3",
+			"Fruit3"
 		],
 		"subfolders": []
 	},

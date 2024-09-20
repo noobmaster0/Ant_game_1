@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "30",
+			"initialValue": "100",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -186,14 +186,48 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 801599683234968,
+					"sid": 704223445370495,
 					"parameters": {
 						"variable": "Score",
-						"value": "10"
+						"value": "15"
 					}
 				}
 			],
 			"sid": 331397975528355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerAnt",
+					"sid": 813871554772114,
+					"parameters": {
+						"object": "Fruit3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Fruit3",
+					"sid": 957874088293152,
+					"parameters": {
+						"x": "random(100,1708-100)",
+						"y": "random(100,960-100)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 354372988971918,
+					"parameters": {
+						"variable": "Score",
+						"value": "30"
+					}
+				}
+			],
+			"sid": 642844230030636
 		},
 		{
 			"eventType": "block",
