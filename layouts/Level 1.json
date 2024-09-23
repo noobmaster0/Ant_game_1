@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Level 1",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -768,6 +768,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Fruit3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"sid": 905274645343795,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 905274645343795,
+						"expanded": true
+					},
+					"world": {
+						"x": 457.4738856353199,
+						"y": 395.90956045810924,
+						"width": 49.74229159476852,
+						"height": 42.324705562107,
+						"originX": 0.5674157303370787,
+						"originY": 0.577639751552795,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 278557975070385,
@@ -905,41 +940,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Fruit3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 33,
-					"sid": 905274645343795,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 905274645343795,
-						"expanded": true
-					},
-					"world": {
-						"x": 457.4738856353199,
-						"y": 395.90956045810924,
-						"width": 49.74229159476852,
-						"height": 42.324705562107,
-						"originX": 0.5674157303370787,
-						"originY": 0.577639751552795,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 152575966390416,
@@ -985,5 +985,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Game sheet"
 }
