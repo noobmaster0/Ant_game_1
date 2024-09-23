@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "100",
+			"initialValue": "5",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -388,6 +388,28 @@
 				}
 			],
 			"sid": 653334125063376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-resume",
+					"objectClass": "System",
+					"sid": 516967668515148
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 612618926831190,
+					"parameters": {
+						"variable": "gametimer",
+						"value": "100"
+					}
+				}
+			],
+			"sid": 870246578590544
 		}
 	],
 	"sid": 497477245291907
