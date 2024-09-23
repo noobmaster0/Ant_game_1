@@ -90,7 +90,9 @@
 			"TiledBackground4",
 			"Mouse",
 			"Title",
-			"Start_Button"
+			"Start_Button",
+			"Next",
+			"Retry"
 		],
 		"subfolders": []
 	},
@@ -113,7 +115,8 @@
 	"eventSheets": {
 		"items": [
 			"Game sheet",
-			"Start sheet"
+			"Start sheet",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
