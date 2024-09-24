@@ -1,8 +1,9 @@
 # Ant_Game_1
-Built Using Construct 3
+Made with Construct 3, as an introductory school project
 
 ## Game Objective
-You play as an ant on a mission to steal food from a picnic. The objective of the game is to navigate obstacles, avoid being spotted by humans or other creatures, and collect as much food as possible before time runs out.
+Playing as an ant, steal as much food as possible. Avoid enemies and beat the time limit.
+<!--(old) You play as an ant on a mission to steal food from a picnic. The objective of the game is to navigate obstacles, avoid being spotted by humans or other creatures, and collect as much food as possible before time runs out.-->
 
 # How to Save the Project:
 1: Open Github Desktop <br></br>
