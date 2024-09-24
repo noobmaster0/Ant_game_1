@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "100",
+			"initialValue": "5",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -323,7 +323,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 694327958257254,
+					"sid": 632991626932048,
 					"parameters": {
 						"key": 40
 					}
@@ -355,11 +355,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation-speed",
+					"id": "set-animation",
 					"objectClass": "PlayerAnt",
-					"sid": 259399310248338,
+					"sid": 827206196470790,
 					"parameters": {
-						"speed": "5"
+						"animation": "\"Walk\"",
+						"from": "current-frame"
 					}
 				}
 			],
@@ -377,11 +378,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation-speed",
+					"id": "set-animation",
 					"objectClass": "PlayerAnt",
-					"sid": 200269335105080,
+					"sid": 506606909711439,
 					"parameters": {
-						"speed": "0"
+						"animation": "\"Idle\"",
+						"from": "current-frame"
 					}
 				}
 			],
