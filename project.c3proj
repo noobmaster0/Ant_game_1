@@ -1,15 +1,7 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 40700,
-<<<<<<< Updated upstream
+	"savedWithRelease": 40702,
 	"name": "ant_game_1",
-=======
-<<<<<<< HEAD
-	"name": "ant game 1",
-=======
-	"name": "ant_game_1",
->>>>>>> parent of dd8bb36 (Merge branch 'main' of https://github.com/noobmaster0/Ant_game_1)
->>>>>>> Stashed changes
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
