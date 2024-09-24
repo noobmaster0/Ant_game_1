@@ -52,6 +52,32 @@
 				}
 			],
 			"sid": 521663648713019
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 377161666702907,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Next"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 653582267422002,
+					"parameters": {
+						"layout": "Level 2"
+					}
+				}
+			],
+			"sid": 549737279071254
 		}
 	],
 	"sid": 329172517725482
