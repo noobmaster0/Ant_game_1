@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 40700,
+	"savedWithRelease": 40702,
 	"name": "ant_game_1",
 	"runtime": "c3",
 	"useWorker": "auto",
