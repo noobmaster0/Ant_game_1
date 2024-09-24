@@ -250,9 +250,9 @@
 	"properties": {
 		"description": "",
 		"version": "1.0.0.0",
-		"author": "",
+		"author": "Brigham Francis, Branson Meldrum, Jayden Cyr, Ruben Mijares, Samuel D. ",
 		"authorEmail": "",
-		"authorWebsite": "",
+		"authorWebsite": "https://github.com/noobmaster0/Ant_game_1",
 		"appId": "",
 		"pixelRounding": false,
 		"zAxisScale": "normalized",
@@ -302,5 +302,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "Start_pg"
 }
