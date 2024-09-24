@@ -41,8 +41,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 16,
-						"y": 20,
+						"x": 6,
+						"y": 81,
 						"width": 1294.0280079114013,
 						"height": 413.53681853837304,
 						"originX": 0,
@@ -53,14 +53,14 @@
 							1,
 							1
 						],
-						"angle": 6.268920511902389,
+						"angle": 6.204360757399524,
 						"zElevation": 0
 					}
 				},
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Boo",
+						"text": "Womp Womp",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -92,8 +92,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 294,
-						"y": 264,
+						"x": 290,
+						"y": 239,
 						"width": 499.8553633678856,
 						"height": 84.84912435332336,
 						"originX": 0,
@@ -111,7 +111,7 @@
 				{
 					"type": "Retry",
 					"properties": {
-						"text": "Retry",
+						"text": "Try Again",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 34,
@@ -143,10 +143,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 266,
-						"y": 364,
-						"width": 200,
-						"height": 53,
+						"x": 270,
+						"y": 347,
+						"width": 217,
+						"height": 61.246521483197625,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -155,7 +155,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.09411388352818201,
 						"zElevation": 0
 					}
 				}
