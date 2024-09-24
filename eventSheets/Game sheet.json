@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "gametimer",
 			"type": "number",
-			"initialValue": "100",
+			"initialValue": "50",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -37,6 +37,18 @@
 					"sid": 862095876702619,
 					"parameters": {
 						"text": "\"Timer: \" & gametimer"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 796745427475610,
+					"parameters": {
+						"audio-file": "spotifydown.com - Rowing Down the River",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -269,6 +281,26 @@
 					"parameters": {
 						"layout": "win"
 					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 304074132628085,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 963911999914619,
+					"parameters": {
+						"audio-file": "5716783635496960",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 175136476048529
@@ -312,6 +344,26 @@
 					"sid": 844979223625686,
 					"parameters": {
 						"layout": "loose"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 842974863468439,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 822774264942302,
+					"parameters": {
+						"audio-file": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com]",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -386,28 +438,6 @@
 				}
 			],
 			"sid": 653334125063376
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-resume",
-					"objectClass": "System",
-					"sid": 516967668515148
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 612618926831190,
-					"parameters": {
-						"variable": "gametimer",
-						"value": "100"
-					}
-				}
-			],
-			"sid": 870246578590544
 		}
 	],
 	"sid": 497477245291907
