@@ -1,43 +1,15 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 40700,
-	"name": "ant_game_1",
+	"name": "ant game 1",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Audio",
-			"name": "Audio",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
+			"id": "Shape3D",
+			"name": "3D shape",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -50,22 +22,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "EightDir",
-			"name": "8 Direction",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -77,30 +35,11 @@
 			"bundled": false
 		}
 	],
-	"uniqueId": "xi87vehv4ru",
+	"uniqueId": "ycfxs9l6y4s",
 	"objectTypes": {
 		"items": [
-			"PlayerAnt",
-			"TiledBackground",
-			"Sprite3",
-			"Enemy",
-			"Keyboard",
-			"Fruit1",
-			"Fruit2",
-			"TiledBackground2",
-			"Text",
-			"Timer",
-			"Text2",
-			"Text3",
-			"TiledBackground3",
-			"Fruit3",
-			"TiledBackground4",
-			"Mouse",
-			"Title",
-			"Start_Button",
-			"Next",
-			"Retry",
-			"Audio"
+			"3DShape",
+			"TiledBackground"
 		],
 		"subfolders": []
 	},
@@ -112,18 +51,12 @@
 	},
 	"layouts": {
 		"items": [
-			"Level 1",
-			"Level 2",
-			"loose",
-			"win",
-			"Start_pg"
+			"Layout 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Game sheet",
-			"Start sheet",
 			"Event sheet 1"
 		],
 		"subfolders": []
@@ -134,32 +67,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "5716783635496960.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 815848923572136,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com].webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 727352374743522,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "spotifydown.com - Rowing Down the River.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 414377322741177,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
@@ -179,7 +87,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 707294540702579,
+					"sid": 110411427227665,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -187,7 +95,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 131831906243238,
+					"sid": 185779084801645,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -195,15 +103,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 470797760489104,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-512.png",
-					"type": "image/png",
-					"sid": 375884489663873,
+					"sid": 177286945818397,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -211,7 +111,7 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 857310977400220,
+					"sid": 925472151896349,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -219,7 +119,15 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 593604161311561,
+					"sid": 471677142260979,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 413506367303115,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -227,7 +135,7 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 727403337280613,
+					"sid": 496672597733617,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
