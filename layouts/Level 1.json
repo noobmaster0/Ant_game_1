@@ -15,10 +15,10 @@
 						"wrap-vertical": "repeat",
 						"image-offset-x": 0,
 						"image-offset-y": 0,
-						"image-scale-x": 5,
-						"image-scale-y": 5,
+						"image-scale-x": 2,
+						"image-scale-y": 2,
 						"image-angle": 0,
-						"enable-tile-randomization": true,
+						"enable-tile-randomization": false,
 						"x-random": 1,
 						"y-random": 1,
 						"angle-random": 1,
@@ -90,12 +90,12 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 175,
-						"y": 144,
-						"width": 114.31212081341387,
-						"height": 82.92699472825313,
-						"originX": 0.5774647887323944,
-						"originY": 0.502262443438914,
+						"x": 210,
+						"y": 271,
+						"width": 192,
+						"height": 122,
+						"originX": 0.578125,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -562,6 +562,41 @@
 					}
 				},
 				{
+					"type": "Fruit3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"sid": 905274645343795,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 905274645343795,
+						"expanded": true
+					},
+					"world": {
+						"x": 457.4738856353199,
+						"y": 395.90956045810924,
+						"width": 49.74229159476852,
+						"height": 42.324705562107,
+						"originX": 0.5674157303370787,
+						"originY": 0.577639751552795,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "TiledBackground2",
 					"properties": {
 						"initially-visible": true,
@@ -580,8 +615,8 @@
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
 					},
-					"uid": 30,
-					"sid": 433234919820620,
+					"uid": 29,
+					"sid": 633539816261338,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -593,14 +628,14 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 433234919820620,
+						"sid": 633539816261338,
 						"expanded": true
 					},
 					"world": {
-						"x": -2,
-						"y": -7,
-						"width": 60,
-						"height": 973,
+						"x": 1636,
+						"y": -25,
+						"width": 105,
+						"height": 1063,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -632,8 +667,8 @@
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
 					},
-					"uid": 29,
-					"sid": 253577963733668,
+					"uid": 30,
+					"sid": 789440053059107,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -645,14 +680,14 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 253577963733668,
+						"sid": 789440053059107,
 						"expanded": true
 					},
 					"world": {
-						"x": 1656,
-						"y": -6,
-						"width": 60,
-						"height": 973,
+						"x": -16,
+						"y": -7,
+						"width": 1747,
+						"height": 90,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -685,7 +720,7 @@
 						"blend-margin-y": 0.1
 					},
 					"uid": 31,
-					"sid": 240134493945881,
+					"sid": 939989892834248,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -697,14 +732,14 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 240134493945881,
+						"sid": 939989892834248,
 						"expanded": true
 					},
 					"world": {
-						"x": -3,
-						"y": -8,
-						"width": 1715,
-						"height": 61,
+						"x": -13,
+						"y": -23,
+						"width": 105,
+						"height": 1063,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -737,7 +772,7 @@
 						"blend-margin-y": 0.1
 					},
 					"uid": 32,
-					"sid": 389396844651436,
+					"sid": 362057464392274,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -749,51 +784,16 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 389396844651436,
+						"sid": 362057464392274,
 						"expanded": true
 					},
 					"world": {
-						"x": -3,
-						"y": 911,
-						"width": 1711,
-						"height": 57,
+						"x": -14,
+						"y": 875,
+						"width": 1747,
+						"height": 90,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Fruit3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 33,
-					"sid": 905274645343795,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 905274645343795,
-						"expanded": true
-					},
-					"world": {
-						"x": 457.4738856353199,
-						"y": 395.90956045810924,
-						"width": 49.74229159476852,
-						"height": 42.324705562107,
-						"originX": 0.5674157303370787,
-						"originY": 0.577639751552795,
 						"color": [
 							1,
 							1,

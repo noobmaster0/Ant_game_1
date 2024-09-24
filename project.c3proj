@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 40700,
+	"savedWithRelease": 40702,
 	"name": "ant_game_1",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -50,13 +50,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
@@ -75,7 +68,6 @@
 		"items": [
 			"PlayerAnt",
 			"TiledBackground",
-			"Sprite3",
 			"Enemy",
 			"Keyboard",
 			"Fruit1",
@@ -92,7 +84,8 @@
 			"Title",
 			"Start_Button",
 			"Next",
-			"Retry"
+			"Retry",
+			"TiledBackground5"
 		],
 		"subfolders": []
 	},
