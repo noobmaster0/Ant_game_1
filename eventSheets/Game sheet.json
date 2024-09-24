@@ -1,0 +1,468 @@
+{
+	"name": "Game sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 110171824223074
+		},
+		{
+			"eventType": "variable",
+			"name": "gametimer",
+			"type": "number",
+			"initialValue": "45",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 794109730580195
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 826418267640637
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Timer",
+					"sid": 862095876702619,
+					"parameters": {
+						"text": "\"Timer: \" & gametimer"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 571121112276001,
+					"parameters": {
+						"audio-file": "spotifydown.com - Rowing Down the River",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 825820175189615
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 420227491123273,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 211307122892762,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 4,
+						"second-value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 468655454433611,
+					"parameters": {
+						"variable": "gametimer",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Timer",
+					"sid": 846570112817420,
+					"parameters": {
+						"text": "\"Timer: \" & gametimer"
+					}
+				}
+			],
+			"sid": 720410636180370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 583808920575551
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 667429012625122,
+					"parameters": {
+						"text": "\"Score: \" & Score"
+					}
+				}
+			],
+			"sid": 368401619926158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerAnt",
+					"sid": 669401502880981,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "PlayerAnt",
+					"sid": 460922967524010
+				}
+			],
+			"sid": 126369566363194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerAnt",
+					"sid": 779604044802310,
+					"parameters": {
+						"object": "Fruit2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Fruit2",
+					"sid": 976398784717778,
+					"parameters": {
+						"x": "random(100,1708-100)",
+						"y": "random(100,960-100)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 882707963133999,
+					"parameters": {
+						"variable": "Score",
+						"value": "10"
+					}
+				}
+			],
+			"sid": 745866515572966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerAnt",
+					"sid": 817492387888470,
+					"parameters": {
+						"object": "Fruit1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Fruit1",
+					"sid": 514096257729473,
+					"parameters": {
+						"x": "random(100,1708-100)",
+						"y": "random(100,960-100)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 704223445370495,
+					"parameters": {
+						"variable": "Score",
+						"value": "15"
+					}
+				}
+			],
+			"sid": 331397975528355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerAnt",
+					"sid": 813871554772114,
+					"parameters": {
+						"object": "Fruit3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Fruit3",
+					"sid": 957874088293152,
+					"parameters": {
+						"x": "random(100,1708-100)",
+						"y": "random(100,960-100)"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 354372988971918,
+					"parameters": {
+						"variable": "Score",
+						"value": "30"
+					}
+				}
+			],
+			"sid": 642844230030636
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 943800493849242,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 960572846830248,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 778448811677438,
+					"parameters": {
+						"first-value": "Score",
+						"comparison": 5,
+						"second-value": "300"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 661075573168531,
+					"parameters": {
+						"layout": "win"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 833908833807051,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 456416186392793,
+					"parameters": {
+						"audio-file": "5716783635496960",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 175136476048529
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 125781072172592,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 569685788142659,
+					"parameters": {
+						"first-value": "gametimer",
+						"comparison": 0,
+						"second-value": "0"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 214775955125271,
+					"parameters": {
+						"first-value": "Score",
+						"comparison": 2,
+						"second-value": "300"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 844979223625686,
+					"parameters": {
+						"layout": "loose"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 773476281635337,
+					"parameters": {
+						"tag": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 401873521925921,
+					"parameters": {
+						"audio-file": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com]",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 212572320601297
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 632991626932048,
+					"parameters": {
+						"key": 40
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 585302765707211,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 722593973640953,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 966279717809950,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayerAnt",
+					"sid": 827206196470790,
+					"parameters": {
+						"animation": "\"Walk\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 341138810259005,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 611752780670501
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayerAnt",
+					"sid": 506606909711439,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 653334125063376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-resume",
+					"objectClass": "System",
+					"sid": 516967668515148
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 612618926831190,
+					"parameters": {
+						"variable": "gametimer",
+						"value": "100"
+					}
+				}
+			],
+			"sid": 870246578590544
+		}
+	],
+	"sid": 497477245291907
+}
