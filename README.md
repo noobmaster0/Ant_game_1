@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Ant_game_1
-a game about ants in construct 3
-=======
 # Ant_Game_1
 Built Using Construct 3
 
@@ -18,4 +14,3 @@ You play as an ant on a mission to steal food from a picnic. The objective of th
 7: Click Push <br></br>
 
 
->>>>>>> parent of dd8bb36 (Merge branch 'main' of https://github.com/noobmaster0/Ant_game_1)
