@@ -1,7 +1,7 @@
 {
-	"name": "TiledBackground4",
+	"name": "TiledBackground5",
 	"plugin-id": "TiledBg",
-	"sid": 509446299397657,
+	"sid": 281918319400957,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -15,7 +15,7 @@
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
 		"fileType": "image/png",
-		"imageSpriteId": 2550732,
+		"imageSpriteId": 227584,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

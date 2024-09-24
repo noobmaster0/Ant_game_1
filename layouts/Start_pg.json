@@ -35,10 +35,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 0,
-						"y": 2,
-						"width": 1707,
-						"height": 954,
+						"x": -92,
+						"y": -278,
+						"width": 1024,
+						"height": 1024,
 						"originX": 0,
 						"originY": 0,
 						"color": [
