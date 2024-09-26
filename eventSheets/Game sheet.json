@@ -304,21 +304,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 960572846830248,
-					"parameters": {
-						"first-value": "gametimer",
-						"comparison": 0,
-						"second-value": "0"
-					}
-				},
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 778448811677438,
+					"sid": 169803479537970,
 					"parameters": {
 						"first-value": "Score",
 						"comparison": 5,
-						"second-value": "300"
+						"second-value": "400"
 					}
 				}
 			],
@@ -378,11 +368,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 214775955125271,
+					"sid": 964087059195610,
 					"parameters": {
 						"first-value": "Score",
 						"comparison": 2,
-						"second-value": "300"
+						"second-value": "400"
 					}
 				}
 			],
