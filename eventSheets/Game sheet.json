@@ -357,10 +357,10 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 822774264942302,
+					"sid": 492975597347294,
 					"parameters": {
 						"audio-file": "spotifydown.com - Happy to Haunted-[AudioTrimmer.com]",
-						"loop": "not-looping",
+						"loop": "looping",
 						"volume": "0",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
