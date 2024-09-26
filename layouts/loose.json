@@ -12,7 +12,7 @@
 						"text": "You Loose",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 130,
+						"size": 78,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -41,8 +41,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 6,
-						"y": 81,
+						"x": 9,
+						"y": 86,
 						"width": 1294.0280079114013,
 						"height": 413.53681853837304,
 						"originX": 0,
@@ -63,7 +63,7 @@
 						"text": "Womp Womp",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 50,
+						"size": 29,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -92,8 +92,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 290,
-						"y": 239,
+						"x": 131,
+						"y": 203,
 						"width": 499.8553633678856,
 						"height": 84.84912435332336,
 						"originX": 0,
@@ -104,7 +104,7 @@
 							1,
 							1
 						],
-						"angle": 6.22627004651786,
+						"angle": 6.248662965302388,
 						"zElevation": 0
 					}
 				},
@@ -143,8 +143,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 270,
-						"y": 347,
+						"x": 166,
+						"y": 284,
 						"width": 217,
 						"height": 61.246521483197625,
 						"originX": 0,
