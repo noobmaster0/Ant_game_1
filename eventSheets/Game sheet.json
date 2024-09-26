@@ -169,6 +169,18 @@
 						"variable": "Score",
 						"value": "10"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 556758282845446,
+					"parameters": {
+						"audio-file": "ding-1-14705",
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "-100",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 745866515572966
@@ -203,6 +215,18 @@
 						"variable": "Score",
 						"value": "15"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 293796917542641,
+					"parameters": {
+						"audio-file": "ding-1-14705",
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "-100",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 331397975528355
@@ -236,6 +260,18 @@
 					"parameters": {
 						"variable": "Score",
 						"value": "30"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 832488934090014,
+					"parameters": {
+						"audio-file": "ding-1-14705",
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "-100",
+						"tag-optional": "\"\""
 					}
 				}
 			],
