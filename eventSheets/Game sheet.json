@@ -438,6 +438,41 @@
 				}
 			],
 			"sid": 653334125063376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-los-to-object",
+					"objectClass": "Enemy",
+					"sid": 531801290802058,
+					"behaviorType": "LineOfSight",
+					"parameters": {
+						"object": "PlayerAnt",
+						"image-point": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "Enemy",
+					"sid": 860467197118393,
+					"parameters": {
+						"x": "PlayerAnt.X",
+						"y": "PlayerAnt.Y"
+					}
+				},
+				{
+					"id": "move-forward",
+					"objectClass": "Enemy",
+					"sid": 739476912445464,
+					"parameters": {
+						"distance": "1"
+					}
+				}
+			],
+			"sid": 707796734308715
 		}
 	],
 	"sid": 497477245291907
