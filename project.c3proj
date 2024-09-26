@@ -309,7 +309,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 512,
+	"viewportHeight": 512,
 	"firstLayout": "Start_pg"
 }
