@@ -12,7 +12,7 @@
 						"text": "You Win",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 170,
+						"size": 99,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -41,10 +41,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": -2,
-						"y": 63,
-						"width": 994.1726445435157,
-						"height": 413.53681853837304,
+						"x": 5,
+						"y": 99,
+						"width": 526.9257630039407,
+						"height": 366.65632133100223,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -92,8 +92,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 443,
-						"y": 274,
+						"x": 239,
+						"y": 234,
 						"width": 200,
 						"height": 84.84912435332336,
 						"originX": 0,
@@ -143,8 +143,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 248,
-						"y": 378,
+						"x": 151,
+						"y": 364,
 						"width": 234,
 						"height": 56,
 						"originX": 0,
@@ -157,43 +157,6 @@
 						],
 						"angle": 0,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "Button",
-					"properties": {
-						"type": "button",
-						"text": "OK",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 40,
-					"sid": 731554415607959,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 731554415607959,
-						"expanded": true
-					},
-					"world": {
-						"x": 226,
-						"y": 309,
-						"width": 72,
-						"height": 24,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
 					}
 				}
 			],
