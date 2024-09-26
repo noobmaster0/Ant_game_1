@@ -75,6 +75,22 @@
 					"parameters": {
 						"layout": "Level 2"
 					}
+				},
+				{
+					"id": "reset-eventvar",
+					"objectClass": "System",
+					"sid": 913284850734043,
+					"parameters": {
+						"variable": "gametimer"
+					}
+				},
+				{
+					"id": "reset-eventvar",
+					"objectClass": "System",
+					"sid": 397558035681538,
+					"parameters": {
+						"variable": "Score"
+					}
 				}
 			],
 			"sid": 549737279071254
