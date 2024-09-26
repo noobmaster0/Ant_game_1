@@ -135,6 +135,19 @@
 					"id": "destroy",
 					"objectClass": "PlayerAnt",
 					"sid": 460922967524010
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 265186174803123,
+					"parameters": {
+						"layout": "loose"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 537663043708430
 				}
 			],
 			"sid": 126369566363194
@@ -500,6 +513,14 @@
 					}
 				},
 				{
+					"id": "set-animation-speed",
+					"objectClass": "Enemy",
+					"sid": 975993445214732,
+					"parameters": {
+						"speed": "5"
+					}
+				},
+				{
 					"id": "move-forward",
 					"objectClass": "Enemy",
 					"sid": 739476912445464,
@@ -509,6 +530,27 @@
 				}
 			],
 			"sid": 707796734308715
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 542789093254584
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-speed",
+					"objectClass": "Enemy",
+					"sid": 330152702860697,
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 366707413363482
 		}
 	],
 	"sid": 497477245291907

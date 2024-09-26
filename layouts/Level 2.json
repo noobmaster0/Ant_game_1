@@ -2681,7 +2681,7 @@
 								"directions": "dir-8",
 								"set-angle": "smooth",
 								"allow-sliding": false,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						},
@@ -2699,12 +2699,12 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 750,
-						"y": 765,
+						"x": 777,
+						"y": 793,
 						"width": 104.427654,
 						"height": 65.333571,
-						"originX": 2.749832327297116,
-						"originY": 3.4447317388493857,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
