@@ -64,6 +64,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
@@ -157,6 +164,14 @@
 					"name": "spotifydown.com - Rowing Down the River.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 414377322741177,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ding-1-14705.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 870554041634423,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -310,7 +325,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 512,
-	"viewportHeight": 512,
+	"viewportWidth": 960,
+	"viewportHeight": 540,
 	"firstLayout": "Start_pg"
 }
