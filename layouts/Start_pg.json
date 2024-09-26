@@ -35,10 +35,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 2,
-						"y": 2,
-						"width": 512,
-						"height": 512,
+						"x": -54,
+						"y": -209,
+						"width": 1048,
+						"height": 1048,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -121,10 +121,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 192,
-						"y": 281,
-						"width": 241.99598561635423,
-						"height": 78,
+						"x": 365,
+						"y": 341,
+						"width": 253.19746471619987,
+						"height": 74.75548678909743,
 						"originX": 0,
 						"originY": 0,
 						"color": [
