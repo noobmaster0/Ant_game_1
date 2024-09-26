@@ -304,11 +304,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 169803479537970,
+					"sid": 608112036101576,
 					"parameters": {
 						"first-value": "Score",
 						"comparison": 5,
-						"second-value": "400"
+						"second-value": "700"
 					}
 				}
 			],
@@ -368,11 +368,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 964087059195610,
+					"sid": 930154784940935,
 					"parameters": {
 						"first-value": "Score",
 						"comparison": 2,
-						"second-value": "400"
+						"second-value": "700"
 					}
 				}
 			],
