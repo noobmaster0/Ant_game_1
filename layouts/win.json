@@ -7,19 +7,64 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "TiledBackground6",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 40,
+					"sid": 465003950081555,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 465003950081555,
+						"expanded": true
+					},
+					"world": {
+						"x": -24,
+						"y": -23,
+						"width": 578,
+						"height": 588,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Text2",
 					"properties": {
-						"text": "You Win",
+						"text": "You Win!",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 99,
+						"font": "Arial Rounded MT",
+						"size": 90,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							0.9333333333333333,
+							0.38823529411764707,
+							0.38823529411764707,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -41,10 +86,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 5,
-						"y": 99,
-						"width": 526.9257630039407,
-						"height": 366.65632133100223,
+						"x": 2,
+						"y": 90,
+						"width": 527,
+						"height": 161,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -62,15 +107,15 @@
 					"properties": {
 						"text": "Yay",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Ink Free",
 						"size": 50,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							0.9686274509803922,
+							0.9686274509803922,
+							0.9686274509803922,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -92,10 +137,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 239,
-						"y": 234,
-						"width": 200,
-						"height": 84.84912435332336,
+						"x": 221,
+						"y": 220,
+						"width": 127,
+						"height": 99,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -113,15 +158,15 @@
 					"properties": {
 						"text": "Next Level",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Goudy Stout",
 						"size": 34,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.0784313725490196,
-							1,
-							0.984313725490196,
+							0.6784313725490196,
+							0.396078431372549,
+							0,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -143,10 +188,10 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 151,
-						"y": 364,
-						"width": 234,
-						"height": 56,
+						"x": 135.29752066115702,
+						"y": 358.21487603305786,
+						"width": 279.4545454545454,
+						"height": 106,
 						"originX": 0,
 						"originY": 0,
 						"color": [

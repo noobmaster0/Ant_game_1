@@ -101,7 +101,8 @@
 			"Retry",
 			"TiledBackground5",
 			"Audio",
-			"Button"
+			"Button",
+			"TiledBackground6"
 		],
 		"subfolders": []
 	},
