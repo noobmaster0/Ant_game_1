@@ -2688,7 +2688,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 2000,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -2744,7 +2744,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 2000,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -2800,7 +2800,7 @@
 						"LineOfSight": {
 							"properties": {
 								"obstacles": "solids",
-								"range": 10000,
+								"range": 2000,
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
@@ -2887,7 +2887,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 40,
+					"uid": 163,
 					"sid": 445102144072868,
 					"tags": "",
 					"instanceVariables": {},
